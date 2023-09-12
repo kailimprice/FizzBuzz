@@ -209,9 +209,9 @@ a sequence of three git commands:
 3. `git push`
    - this last step is what actually sends your committed changes to your remote GitHub repository.
 
-- [ ] Once you execute these commands, you can check your GitHub repository to confirm that the changes have been made there.
+- [X] Once you execute these commands, you can check your GitHub repository to confirm that the changes have been made there.
 
-- [ ] repeat the above steps for `README.md` (or try using the approach below).
+- [X] repeat the above steps for `README.md` (or try using the approach below).
 
 Tip: You can also use IntelliJ to execute these same steps using the graphical user interface it provides.
 If you have followed the software installation instructions, you should see `Git` in the menu bar at the top.
@@ -249,18 +249,18 @@ It turns out that IntelliJ can help us out with this too!
 
 ### Task 3.1: Changing access modifiers using IntelliJ
 
-- [ ] In your main method in `Main.java`, try calling your private helper — something like `FizzBuzz.doFizzBuzz(5);`.
+- [X] In your main method in `Main.java`, try calling your private helper — something like `FizzBuzz.doFizzBuzz(5);`.
 
 You'll see that IntelliJ flags that you are trying to access something that is private. Unlike Python,
 Java won't even let you run the code when it detects this kind of violation of an access modifier (it is an
 error and not just a warning).
 
-- [ ] Hover over the error; IntelliJ will suggest some fixes.
+- [X] Hover over the error; IntelliJ will suggest some fixes.
 
-- [ ] Click `More actions...` and you'll see a list of the various possible access modifiers.
+- [X] Click `More actions...` and you'll see a list of the various possible access modifiers.
 These will be explained in more detail in your readings, but for now we can just make the method public.
 
-- [ ] Choose this fix and the error will go away. Try running `Main.java` to see if it outputs
+- [X] Choose this fix and the error will go away. Try running `Main.java` to see if it outputs
 what you expect.
 
 ### Task 3.2: Calling `FizzBuzz.main` from `Main.main`
@@ -296,14 +296,14 @@ ways to help you resolve such conflicts without too much difficulty.
 To get your first experience with `git pull`, you can make a quick change to one of the files in your Fizz Buzz repository
 on GitHub.
 
-- [ ] Open any of the files (like this readme file, for example) on the GitHub webpage for your repository. Near the
+- [X] Open any of the files (like this readme file, for example) on the GitHub webpage for your repository. Near the
 right side of the screen, you should see an edit button (with a pencil on it). Click that and make a small edit to
 the file. Then click the commit button to commit the change to the repository.
 
 This change has now been made on GitHub,
 but your local copy doesn't know about the change yet.
 
-- [ ] In IntelliJ, you can either click the `Git` menu and choose `Pull...`,
+- [X] In IntelliJ, you can either click the `Git` menu and choose `Pull...`,
 or you can run `git pull` from the Terminal tab. Once you have done the pull, you should see that commit show up in
 your local repository.
 
@@ -321,12 +321,12 @@ commit, push steps you learned in lab this week).
 
 ## Task 4: Multiples of 3 and 5
 
-- [ ] Right-click on `src` and select `New —> Java Class`. Name it `Multiples`.
+- [X] Right-click on `src` and select `New —> Java Class`. Name it `Multiples`.
 
 We're looking for non-negative multiples of 3 or 5. The first four are 3, 5, 6, and 9, so there are
 four below 10. How many are below 1000?
 
-- [ ] In `Multiples.java`, write a main method that **prints** how many multiples of 3 or 5 there are below 1000.
+- [X] In `Multiples.java`, write a main method that **prints** how many multiples of 3 or 5 there are below 1000.
 Add this file to your project, commit, and push. Check your repo on GitHub to confirm your changes were pushed successfully.
 
 Tip: Just like with `psvm`, you can start typing `sout` and then press Enter to generate `System.out.println();` in IntelliJ.
